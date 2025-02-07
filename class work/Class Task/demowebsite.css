@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial;
+    margin: 0;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width:600px){
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+    
+}
+@media screen  and (max-width:768px){
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+}
+.header{
+    color:black;
+    background-color:rgba(224, 131, 131, 0.616);
+    text-align: center;
+    padding: 2%;
+    font-weight: 1000;
+    font-style: oblique;
+    font-size: x-large;
+    animation-name: ab;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-image: url(youtube.webp);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position:right;
+    
+    
+}
+
+
+@keyframes ab{
+    0%{background-color: aquamarine;left: 0px;right: 0px;}
+    25%{background-color:blueviolet;left: 200px;right: 0px;}
+    50%{background-color:blue;left: 200px;right: 200px;}
+    75%{background-color:antiquewhite;left: 0px;right: 200px;}
+   100%{background-color: aquamarine;left: 0px;right: 0px;}
+    
+
+}
+
+
+.topnav{
+    overflow: hidden;
+    background-color: black;
+
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(223, 181, 127);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(170, 142, 197);
+    color: rgb(77, 85, 60);
+
+}
+
+.sidebar{
+    padding: 2%;
+    background-color: grey;
+}
+.sidebar img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mainbar{
+    padding: 1%;
+    background-color:blanchedalmond;
+    font-style:poppin;
+    font-weight: bold;
+    
+}
+.mainbar img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+.blockpad{
+    padding: 1%;
+}
+.footer{
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+.footer img{
+    width: 100%;
+    width: 100%;
+    border-radius: 10px;
+}

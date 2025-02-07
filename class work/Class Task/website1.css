@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial;
+    margin: 0%;
+}
+[
+   
+class*="col-"] {
+        width: 100%;
+}
+@media  only screen and (min-width:600px){
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width:100%;}
+    
+    
+}
+@media screen and (man-width:768px){
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width:100%;}
+    
+    
+}
+.header{
+    color:black;
+    background-color:rgb(180, 230, 230);
+    text-align: center;
+    padding: 2%;
+    font-weight: 1000;
+    font-style: oblique;
+    font-size: x-large;
+    animation-name: ab;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+    
+}
+@keyframes ab{
+    0%{background-color: rgb(138, 240, 206);left: 0px;right: 0px;}
+    25%{background-color:rgb(93, 76, 109);left: 200px;right: 0px;}
+    50%{background-color:rgba(77, 146, 60, 0.788);left: 200px;right: 200px;}
+    75%{background-color:rgb(250, 235, 215);left: 0px;right: 200px;}
+   100%{background-color:rgb(230, 161, 59);left: 0px;right: 0px;}
+    
+
+}
+.header2{
+    color:blanchedalmond;
+    background-image:url(../images/vollyball.jpeg);
+    background-size: 100% 400px;
+    text-align: center;
+    padding: 10%;
+    font-weight: 1000;
+    font-size: 250%;
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(223, 181, 127);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:rgb(186, 226, 125);
+    color: rgb(77, 85, 60);
+}
+.sidebar{
+    padding: 2%;
+    background-color:antiquewhite;
+}
+.sidebar img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mainbar{
+    padding: 1%;
+    background-color:blanchedalmond;
+    font-style:poppin;
+    font-weight: bold;
+    
+}
+.mainbar img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+.blockpad{
+    padding: 1%;
+}
+.footer{
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+.footer img{
+    width: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+

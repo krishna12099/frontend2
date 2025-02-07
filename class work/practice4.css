@@ -1,0 +1,14 @@
+p:first-child{
+    background-color: aquamarine;
+}
+li:first-child{
+    background-color: brown;
+}
+a:link{
+    color: blueviolet;
+}
+p::after{
+    content: "highlight text about time " ;
+    background-color: brown;
+}
+

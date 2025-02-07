@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.div1{
+    width:100%;
+    height:auto;
+    background-color: brown;
+    text-align: center;
+    padding-top: 30px;
+}
+h2{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.header{
+    width:100%;
+    height:auto;
+    color: brown;
+    text-align: center;
+    padding: 50px;
+    float: left;
+    padding-top: 30px;
+    background-size: 100% 100%;
+}
+
+.div2{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+    
+}
+
+.div3{
+    width: 15%;
+    height:1000px;
+    background-color: antiquewhite;
+    color:black;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+
+.div4{
+    width: 70%;
+    height: 1000px;
+    background-color: palevioletred;
+    color:black;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+    font-size: large;
+}
+.div5{
+    width: 15%;
+    height: 1000px;
+    background-color: antiquewhite;
+    color:black;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+.div6{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+.div7{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+.div8{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}
+.div9{
+    width: 25%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+}

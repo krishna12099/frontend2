@@ -1,0 +1,17 @@
+h1::first-letter{
+    font-size: 200%;
+    color: brown;
+}
+p::first-line{
+    font-size: 200%;
+    font-style: italic;
+    color: blue;
+    font-family:poppin;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+li{
+    display: inline;
+}

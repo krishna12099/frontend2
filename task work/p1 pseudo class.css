@@ -1,0 +1,52 @@
+*row{
+    display:flex;
+    box-sizing: border-box;
+}
+
+.a{
+    border: solid 2px orange;
+    outline: dotted 3px green;
+    width: 25%;
+    height: auto;
+    padding-left:  15%;
+    background-color: rgb(121, 162, 173);
+}
+
+.b{
+    
+    border: solid 2px red;
+    outline: dotted 3px black;
+    width: 25%;
+    height: auto;
+    padding-left: 15%;
+    background-color: rgb(168, 71, 120);
+    border-radius: 30px;
+} 
+h1:first-child{
+    background-color: yellow;
+}
+li:first-child{
+    background-color: green;
+}
+a:link{
+    color: brown;
+}
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: blue;
+}
+input:focus{
+    background-color:rgb(131, 230, 131);
+    color:black;
+}
+img:hover{
+    border: solid 5px green;
+    width: 300px;
+    height: 300px;
+}
+.ab{
+    color: rgb(22, 112, 70);
+    background-color: rgb(230, 178, 208);
+}

@@ -1,0 +1,27 @@
+*{
+    margin:0px ;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.header{
+    color: rgb(84, 96, 163);
+    background-color: rgb(184, 181, 33);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+}
+.navbar{
+    color:brown;
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.a{
+    color: black;
+    text-align: left;
+    display: inline;
+}

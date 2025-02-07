@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *.row{
+            display: flex;
+            box-sizing: border-box;
+        }
+    .div1{
+        width:80%;
+        height:600px;
+        background-color: azure;
+        position: relative;
+        animation-name: Barby;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        text-align: center;
+        font-size: larger;
+
+    }
+    @keyframes Barby{
+        0%{background-color: brown;left: 0px;top: 0px;}
+        25%{background-color: aquamarine;left: 200px;top:0px;transform: rotate(90deg);}
+        50%{background-color: black; left: 200px;top: 200px;transform: rotate(180deg);}
+        75%{background-color: blue;left: 0px;top: 200px;transform: rotate(270deg);}
+        100%{background-color: brown;left:opx;top: 0px;transform: rotate(360deg);}
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="row">
+        <img src="barby 4.jpeg" width="50%" height="600px">
+        <h1><i>This is animation</i></h1>
+        <h3><i>
+            <pre> Whispers Under Starlight
+            In the quiet night, a promise is whispered, soft,
+            Under the celestial dome, where dreams drift aloft.
+            
+            Stars sprinkle hope, like dust on our skins,
+            In the silence of dusk, where the heartbeat begins.
+            
+            Each twinkle a secret, a vow to embrace,
+            Life dances through shadows, in its tender grace.
+            
+            Lost in the cosmos, we breathe in the light,
+            Whispers of love echo, under the night.
+            
+            Time weaves its tapestry, a thread from afar,
+            In the fabric of moments, we’re never too far.
+        </pre></i></h3>
+        </div>
+    </div>
+</body>
+</html>

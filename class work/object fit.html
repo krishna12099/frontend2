@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object fit</title>
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .box {
+            width: 50%;
+            float: left;
+        }
+
+        .img1 {
+
+            height: 350px;
+            width: 100%;
+            object-fit: fill;
+            filter: blur(2px);
+        }
+
+        .img2 {
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+            filter: blur(2px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>It is object fit property</h2>
+    <div class="row">
+        <div class="box">
+            <img class="img1" src="barby 7.jpeg" alt="doll">
+            <pre>
+                Only a dad, with a tired face,
+            
+                Coming home from the daily race,
+            
+                Bringing little of gold or fame,
+            
+                To show how well he has played the game,
+            
+                Read Complete Poem
+            </pre>
+        </div>
+
+        <div class="box">
+            <img class="img2" src="barby 5.jpeg" alt="doll">
+            <pre>
+                Only a dad, with a tired face,
+                
+                Coming home from the daily race,
+                
+                Bringing little of gold or fame,
+                
+                To show how well he has played the game,
+    
+                Read Complete Poem
+            </pre>
+        </div>
+    </div>
+
+</body>
+
+</html>
