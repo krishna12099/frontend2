@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="mb.css" </head>
+
+<body>
+    <table border="2" style="width: 100%;text-align: center;border-collapse:collapse;">
+        <tr>
+            <td rowspan="2">Home</td>
+            <td rowspan="2">about</td>
+            <td rowspan="2">contact</td>
+            <td rowspan="2">help</td>
+            <td rowspan="2">store</td>
+            <td style="background-color: rgb(238, 100, 100);">Download</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgb(238, 100, 100);">App</td>
+        </tr>
+    </table>
+    <div style="display:flex">
+        <img style="flex:1;height: 300px;" src="./img/door.jpg" alt="logo" />
+        <img style="flex:1;height: 300px;" src="./img/door2.jpg" width="500px" alt="logo" />
+    </div>
+    <div style="text-align: center;background-color: palevioletred;height: 20px;">
+        <label>contact us page</label>
+    </div>
+    <div style="height: 200px;text-align: center;background-image: url(./img/contactUs.jpg);background-size: cover;">
+        <h2 style="margin-top: 10px;color: white;padding-top: 20px;"> Contact Us </h2>
+    </div>
+    <div style="display: flex;width: 100%;">
+        <div style="width: 100%;">
+            <table style="width: 100%;background: skyblue;">
+                <tr style="border:1px solid black">
+                    <td style="border:1px solid black"> First Name : <input type="text" placeholder="Enter your name"> </td>
+                    <td style="border:1px solid black">Last Name : <input type="text" placeholder="Enter your last name"></td>
+                </tr>
+                <tr style="border:1px solid black">
+                    <td style="border:1px solid black"> Email Id : <input type="text" placeholder="Enter your name"> </td>
+                    <td style="border:1px solid black">Phone no : <input type="text" placeholder="Enter your last name"></td>
+                </tr>
+                <tr style="border:1px solid black">
+                    <td style="border:1px solid black"> city :
+                        <select>
+                            <option> Select City</option>
+                            <option> Ahmedabad</option>
+                        </select>
+                    </td>
+                    <td style="border:1px solid black">Gender:
+                        <label> <input type="radio" name="salutation" value="Male"> Male. </label>
+                        <label> <input type="radio" name="salutation" value="Female"> Female. </label>
+                        <label> <input type="radio" name="salutation" value="Other"> Other. </label>
+
+                    </td>
+                </tr>
+            </table>
+            <!-- <div> First Name : <input type="text" placeholder="Enter your name"> </div>
+            <div> Last Name : <input type="text" placeholder="Enter your last name">  </div>
+             -->
+        </div>
+    </div>
+    <div style="display:flex">
+        <div style="flex: 1;">
+            <iframe src="https://www.google.com/maps/embed?pb=YourMapURL" height="500" style="border:0;width: 100%;"
+                allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+        <div style="flex: 1;">
+            <img width="100%" style="flex:1;height: 500px;" src="./img/youtube.jpg" alt="logo" />
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

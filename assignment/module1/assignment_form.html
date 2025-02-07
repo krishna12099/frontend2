@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Left Labels</title>
+    <style>
+        .form-group {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            flex: 1;
+            text-align: right;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group select {
+            flex: 2;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="max-width: 600px;background-color: #fff;padding: 20px;">
+        <div style="display: flex;justify-content: center;">
+            <h2 style="color: rgb(194, 43, 43);">Employee Registration Form</h2>
+        </div>
+
+        <form action="#">
+            <div style="display: flex;justify-content: center;margin-bottom: 5px;">
+                <label> <input type="radio" name="salutation" value="Mr."> Mr. </label>
+                <label> <input type="radio" name="salutation" value="Mrs."> Mrs. </label>
+                <label> <input type="radio" name="salutation" value="Ms."> Ms. </label>
+
+            </div>
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <label>Mail Address 1</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Mail Address 2</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>City </label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label>State </label>
+                <select>
+                    <option> Select State</option>
+                    <option> Gujarat</option>
+                    <option> Maharastra</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Zip</label>
+                <input type="text">
+            </div>
+
+
+            <div class="form-group">
+                <label>Upload Photo</label>
+                <input type="file">
+            </div>
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email">
+            </div>
+            <div class="form-group">
+                <label>Mobile</label>
+                <input type="number" placeholder="+91">
+            </div>
+            <div class="form-group">
+                Languages Known
+                <input type="checkbox" name="language" value="Gujarati" checked>Gujarati<br>
+                <input type="checkbox" name="language" value="Hindi" checked>Hindi<br>
+                <input type="checkbox" name="language" value="English" checked>English<br>
+                <input type="checkbox" name="language" value="Marathi" >Marathi
+
+            </div> 
+
+            <div class="form-group">
+                <label>Additional Information</label>
+                <textarea id="w3review" name="w3review" placeholder="optional" rows="4" cols="50"></textarea>
+            </div>
+            <div class="form-group" style="display: flex;justify-content: center;">
+                <button type="submit">Submit</button>
+                <button type="submit" style="margin-left: 10px;">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{text-align: center;color:brown;}
+        
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Employee Registration Form</h1>
+         
+    <input type="radio"name="gender">Mr.
+    <input type="radio" name="gender">Mrs
+    <input type="radio" name="gender">Ms.<br><br>
+    Name<input type="text"><br><br>
+    Father's Name<input type="text" id="fname"name="fname"><br><br>
+    Mail Address 1<input type="text"><br><br>
+    Mail Address 2<input type="text"><br><br>
+    City<input type="text"><br><br>
+    State<input type=""
+    
+
+    </form>
+</body>
+</html> -->

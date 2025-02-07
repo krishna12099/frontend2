@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+</head>
+<body>
+
+    <canvas id="myCanvas" width="500" height="200" style="border:1px solid #000;"></canvas>
+    
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Draw a rectangle
+        ctx.fillStyle = "red";
+        ctx.fillRect(50, 50, 100, 100);
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+
+      
+
+        // Draw a circle
+        ctx.beginPath();
+        ctx.arc(250, 100, 50, 0, Math.PI * 2);
+        ctx.fillStyle = "blue";
+        ctx.fill();
+        ctx.closePath();
+     
+        // Draw a triangle
+        ctx.beginPath();
+        ctx.moveTo(350, 150);
+        ctx.lineTo(400, 50);
+        ctx.lineTo(450, 150);
+        ctx.closePath();
+        ctx.fillStyle = "green";
+        ctx.fill();
+
+      
+
+    </script>
+
+
+
+</body>
+</html>

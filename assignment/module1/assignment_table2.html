@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Table</title>
+</head>
+<body>
+    <table border="2" style="background-color: rgb(208, 243, 208);border-collapse:collapse;width:50%;">
+        <tr>
+            <td style="width:70%;"colspan="3">Invoice #9876543210</td>
+            <td  style="width:30%;"colspan="2">15 september 2020</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:50%;">Pay to:<br>Acme Billing Co.<br>123 main St.<br>Cityville,NA12345</td>
+            <td colspan="3" style="width: 50%;"> Customer:<br>John Smith<br>321 Willow Way<br>Southeast Northwestershire<br>MA 54321</td>
+        </tr>
+        <tr>
+            <td>Name/Description<br>Paperclips<br>Staples(box)</td>
+            <td>Qty.<br>2000<br>200</td>
+            <td colspan="2">@<br>0.02<br>2.00</td>
+            <td>Cost<br>20.00<br>200.00</td>
+        </tr>
+        <tr style="text-align: left;">
+            <th colspan="4">Subtotal</th>
+            <th>220.00</th>
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td colspan="2">9%</td>
+            <td>19.80</td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align: center;">Grand Total</th>
+            <th style="text-align: center;">239.80</th>
+        </tr>
+    </table>
+</body>
+</html> 
