@@ -8,33 +8,98 @@
     
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   background-color: rgb(155, 172, 189);
-  width:50%;
+  width:80%;
+  height: 500px;
+  flex-direction:row;
+ 
+  
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
+  flex:2 1 430px;
+  text-align:left;
+  line-height: 30px;
+  font-size: large;
+  flex-wrap:  wrap;
   margin: 10px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-left: 20px;
+  justify-items: space-between;
+  
+}
+ .flex-container2{
+  display: flex;
+  
+
+  
+ }
+
+
+.flex-container2 > div{
+  align-self:center;
+  padding-left:20px;
+  background-color: rgb(179, 157, 201);
+  margin: 10px;
+  margin-top: 20px;
+  flex-wrap:wrap;
+  flex-basis: 100px;
+  
+  
+}
+.flex-container3{
+  display: flex;
+  }
+
+  .flex-container3 > div{
+  align-self:center;
+  padding-left:20px;
+  background-color: rgb(179, 157, 201);
+  margin: 10px;
+  flex-wrap:wrap;
+  flex-basis: 500px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}  
-    
+}
+
+
+
 </style>
 </head>
 <body>
     <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>  
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>  
-        <div>7</div>
-        <div>8</div>
-    </div>
+        <div>
+          <h2>First article</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, odio.ipsum dolor sit, amet consectetur adipisicing elit. Magnam modi aut similique fuga ullam animi nam quam delectus cupiditate blanditiis?</p>
+        </div>
+
+        <div>
+          <h2>Second article</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aut. ipsum dolor sit, amet consectetur adipisicing elit. Magnam modi aut similique fuga ullam animi nam quam delectus cupiditate blanditiis?</p>
+        </div>
+        
+
+        <div>
+           <div class="flex-container2">
+              <div class="item  item1">smile</div>
+              <div class="item item2">laugh</div>
+              <div class="item item3">wink</div>
+              <div class="item item4">shrug</div>
+           </div>
+
+           <div class="flex-container3">
+            <div class="item item5">Blush</div>
+           </div>
+
+           <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius. ipsum, dolor sit amet consectetur adipisicing elit. Expedita, ab.ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo reiciendis eum! Eius, animi dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quaerat? ipsum, dolor sit amet consectetur adipisicing elit. Voluptate adipisci, quam necessitatibus praesentium perferendis et voluptatum alias quibusdam, odio dolorum quod ullam cum, esse neque maiores aperiam aut reprehenderit mollitia?</p>
+          </div>
+        </div>
+        
+    
     
 </body>
 </html>
