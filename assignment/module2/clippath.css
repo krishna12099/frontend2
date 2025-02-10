@@ -1,0 +1,89 @@
+/* .element {
+    clip-path: poligon;
+  }
+
+  .image-clip {
+    -webkit-mask-image: url('background\ sky.jpeg');
+    mask-image: url('background\ sky.jpeg');
+  }
+  
+  #myclip{
+    
+      
+  } */
+  
+
+
+  .div1{
+    background-image: url(background\ sky.jpeg);
+    background-position: left top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 10px solid rgb(36, 43, 36);
+    width: 85%;
+    height: 800px;
+    color: rgb(43, 45, 48);
+    margin-top:20px ;
+    background-color:orange;
+
+  }
+
+  .div3 a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    float:right;
+    padding-left: 30px;
+    
+  }
+  .div2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  .div2 a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: antiquewhite;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 30px;
+
+ }
+
+  .div2 a:hover{
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+  }
+
+
+
+.div4{
+    text-align: center;
+    color: rgb(231, 102, 55);
+    font-size: large;
+}
+
+h1{
+
+    font-size: xx-large;
+}
+button{
+    color: black;
+    margin: 10px;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div4 a{
+    text-decoration: none;
+    border-radius: 2px solid black;
+    color: black;
+    padding: 10px;
+    
+}
+
+
+  
