@@ -62,8 +62,9 @@
 
 .div4{
     text-align: center;
-    color: rgb(231, 102, 55);
+    color: rgb(224, 71, 15);
     font-size: large;
+    font-weight: 100;
 }
 
 h1{
@@ -84,6 +85,29 @@ button{
     padding: 10px;
     
 }
+ 
+ .ab > button{
+  color: aliceblue;
+  background-color: brown;
+  padding: 10px;
+  font-size: large;
+  float: left;
+ }
 
+ 
+ .active > button{
+  float: right;
+  color: aliceblue;
+  background-color: brown;
+  padding: 10px;
+  font-size: large;
+ }
 
-  
+ .down >button{
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+  color:black;
+  font-size: larger;
+  margin: 10px;
+ }
