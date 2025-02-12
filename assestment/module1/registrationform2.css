@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+h1{
+    color: brown;
+    font-size: large;
+    text-decoration: underline;
+    text-align:center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    
+  }
+
+
+  input[type=password] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
+input[type=date] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+
+
+    
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    
+  }
+  label {
+    padding: 1opx;
+    display: inline-block;
+    width: 100%;
+    
+  }
+  
+
+
+  input[type=submit] {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    background-color: rgba(41, 231, 41, 0.808);
+    
+  }
+ 
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 60%;
+    height: 800px;
+    display: inline-block;
+
+  }
+ .row{
+    width: 100%;
+    display: flex;
+ }
+ .div1{
+    width: 30%;
+ }
+ .div2{
+    width: 60%;
+ }
