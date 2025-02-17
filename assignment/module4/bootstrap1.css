@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial;
+    margin: 0;
+}
+.container{
+    background-color: beige;
+}
+
+h1,h3{
+  background-color: rgb(85, 85, 219);
+  text-align: center;
+  border-radius: 10px;
+}
+
+#one{
+     border-radius: 30px;
+     background-color: rgb(46, 156, 46);
+     height: 350px;
+     text-align: center;
+     font-weight: bolder;
+     
+     
+     
+     
+ 
+}
+#two{
+    border-radius: 30px;
+    background-color: orangered;
+    height: 350px;
+    text-align: center;
+    font-weight: bolder;
+     
+    
+     
+
+     
+    
+}
+#three{
+    border-radius: 30px;
+    background-color:yellow;
+    height: 350px;
+    text-align: center;
+    font-weight: bolder;
+     
+    
+     
+    
+     
+    
+}
