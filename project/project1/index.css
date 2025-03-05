@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#object{
+    background-color: #4b6584;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.navbar{
+    background-color:#F8EFBA;
+}
+
+
+#title{
+    font-size:50px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.navbar-nav{
+    display: inline-block;
+}
+
+
+#menu{
+    padding:15px 10px;
+    font-weight:bolder;
+    font-size: 20px;
+    
+}
+#menu li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+#menu li a{
+    color: #0a3d62;
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu li a:hover{
+    background-color: #0a3d62;
+    color: antiquewhite;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+      
+.dropdown-menu li a {
+    padding: 10px;
+    white-space: nowrap;
+}
+.dropdown-menu:hover{
+    display: block;
+}
+
+#login{
+    float: right;
+    margin: 10px;
+    
+}
+#brain{
+    background-color:#BDC581;
+    
+
+}
+    
+#brain .carousel-caption button{
+    font-size: large;
+    position: relative;
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: all 2s;
+}
+#brain.carousel-caption button:hover{
+    width: 100px;
+}
+
+@keyframes example {
+    0%   {background-color:#4b6584; color: azure; left:0px; top:0px;}
+    100%  {background-color:#fad390;color: #4b6584; left:200px; top:0px;}
+    
+ }
+ #content{
+    display: flex;
+    text-align: center;
+    color: #0a3d62;
+    background-color:#dfd5b5;
+
+ }
+ #content span{
+    border-radius: 20px;
+ }
+ #sidebar p,h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+ }
+ #sub{
+    font-size: 20px;
+    margin-top: 50px;
+    display: block;
+ }
+ #other{
+    font-size: 30px;
+    background-color: #4b6584;
+    color: azure;
+    text-align: center;
+ }
+
+ #other h3{
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+ }
+.card-body{
+    background-color:#F8EFBA;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn{
+    border-radius: 20px;
+}
+#other .btn:hover{
+    color: #4b6584;
+    background-color:#BDC581;
+}
+#test{
+    background: url(/project/project1/images/clinic5.jpg)no-repeat;
+    background-size:cover ;
+   
+}
+
+#test .awesome{
+    background-color:rgba(128, 128, 128, 0.155);
+}
+#test .awesome .form-control{
+    background-color:rgba(128, 128, 128, 0.5);
+}
+#testimonial{
+    text-align: center;
+    background-color: #BDC581;
+    
+}
+
+#testimonial .badge{
+    font-size: 50px;
+    padding: 20px;
+    margin: 30px;
+    margin-right: 30px;
+    border-radius: 70px;
+    width: 500px;
+}
+.jumbotron{
+    height: auto;
+    padding: 10px;
+    border-radius: 40px;
+    background-color:#d4c1b7de;
+}
+
+
+.jumbotron img{
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 30px;
+}
+#footer{
+    background-color:black;
+    color: antiquewhite;
+    padding: 100px;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+#demand{
+    background-color: black;
+    margin: 1px;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width:768px) {
+    #title {
+        font-size:0px; 
+        padding: 0%;
+        margin: 0%;
+    }
+    
