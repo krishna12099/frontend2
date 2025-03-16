@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <style>
+        /* body{
+            padding: 0;
+            margin: 0;
+        } */
+        #main{
+            position: relative;
+            height: auto;
+            width: 100%;
+        }
+
+        img{
+            height:800px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <img src="/assignment/module5/images/nature.jpg" id="slideimage">
+    </div>
+
+    <script>
+        function first () {
+            document.getElementById("slideimage").src="/assignment/module5/images/nature2.jpg";
+        }
+        function second () {
+            document.getElementById("slideimage").src="/assignment/module5/images/nature3.jpg";
+        }
+        function third () {
+            document.getElementById("slideimage").src="/assignment/module5/images/nature.jpg";
+        }
+
+        setInterval(first,2000);
+        setInterval(second,4000);
+        setInterval(third,6000);
+    </script>
+</body>
+</html>
