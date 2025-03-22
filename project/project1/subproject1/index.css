@@ -142,7 +142,7 @@
     background-color:#BDC581;
 }
 #test{
-    background: url(/project/project1/images/clinic5.jpg)no-repeat;
+    background: url(/project/project1/subproject1/images/clinic5.jpg)no-repeat;
     background-size:cover ;
    
 }
