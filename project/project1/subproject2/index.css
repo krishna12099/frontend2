@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+   color: #e1b12c;
+   background-color: #40739e;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#logo{
+    /* font-size: 2rem; */
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    padding-top: 55px;
+    padding-right: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#menu li a{
+   color: #e1b12c;
+   background-color: #40739e;
+   padding: 15px 10px;
+   display: block;
+}
+
+#menu li a:hover{
+    background-color:#e1b12c;
+    color: #40739e;
+}
+
+#flute{
+    float: right;
+    margin: auto;
+}
+
+#flute a {
+    font-size: 25px;
+    color: #e1b12c;
+    background-color: antiquewhite;
+}
+
+#flute a i:hover{
+    background-color:#e1b12c;
+    color: #40739e;
+}
+
+
+#feather{
+    float: left;
+    margin: auto;
+}
+
+#banner{
+    background: url("../subproject2/images/krishna.png")no-repeat 0 0;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-title{
+    padding-top: 10px;
+}
+
+.banner-title h1{
+    
+    display: block;
+    padding: 10px;
+    margin: 0;
+    float: right;
+    color:#40739e;
+    background-color:#e1b12c;
+}
+
+.banner-title p.lead{
+    color: #e1b12c;
+    background-color: #40739e;
+    padding: 10px;
+    float: right;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#content{
+    color: #40739e;
+    background-color: #e1b12c;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+span{
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency counter</title>
+    <link rel="stylesheet" href="currency.css">
+    <script src="currency.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Counter</h2>
+        <div class="currency-inputs">
+            <img src="./images/2000.png"width="150px"><label>₹2000:</label> <input type="number" id="note2000" value="0"><br>
+            <img src="./images/500.png"width="150px"><label>₹500:</label>  <input type="number" id="note500" value="0"><br>
+            <img src="./images/200.png"width="150px"><label>₹200:</label>  <input type="number" id="note200" value="0"><br>
+            <img src="./images/100.png"width="150px"><label>₹100:</label>  <input type="number" id="note100" value="0"><br>
+            <img src="./images/50.png"width="150px"><label>₹50:</label>   <input type="number" id="note50" value="0"><br>
+            <img src="./images/20.png"width="150px"><label>₹20:</label>   <input type="number" id="note20" value="0"><br>
+            <img src="./images/10.png"width="150px"><label>₹10:</label>   <input type="number" id="note10" value="0"><br>
+        </div>
+
+        <button onclick="calculateTotal()">Calculate Total</button>
+
+        <h3>Total Amount: ₹<span id="totalAmount">0</span></h3>
+    </div>
+
+    <script src="currency.js"></script>
+</body>
+</html>

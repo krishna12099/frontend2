@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background:#ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency-inputs label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    background-color:#F8EFBA;
+}
+
+.currency-inputs input {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color:black;
+    color:#ffcccc;
+    padding: 10px;
+    border:2px solid pink;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+button:hover {
+    background-color:bisque;
+    color:black;
+    width: 150px;
+    border: 2px solid black;
+}
+
+h3 {
+    margin-top: 20px;
+}
