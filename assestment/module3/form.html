@@ -20,6 +20,32 @@
     select{
         float: left;
     }
+
+    ul {
+            list-style-type: none;
+            padding: 0;
+        
+        }
+
+        li {
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid red;
+            border-radius: 5px;
+            margin: 10px;
+            background-color: aliceblue;
+            
+        }
+        .nested {
+            display: none;
+            margin-left: 20px;
+    
+            
+        }
+        .active {
+            display: block;
+        }
+
    
 </style>
 </head>
@@ -29,28 +55,50 @@
         <div class="row">
            <form action="" class="was-validated">
 
+<div class="mb-3 mt-3">
+<!--     
+
             <div class="mb-3 mt-3">
             <label for="sel1" class="form-label">Choice of booking (select one):</label>
-            <select class="form-select" id="sel1" name="sellist1">
-                <option>Full day booking
-                    <optgroup>
-                    <option value="date">date</option>  
-                    </optgroup>
-                </option>
-                <option>Half day booking
-                    <optgroup>
-                    <option value="date">date</option>  
-                    <option value="slot">slot</option>
-                    </optgroup>
-                </option>
-                <option>Hourly  booking
-                    <optgroup>
-                    <option value="date">date</option> 
-                    <option value="time">time</option>
-                    </optgroup>  
-                </option>
-            </select> 
-            </div><br><br><br>
+            <select class="form-select" id="mainSelect" name="sellist1">
+                <option>Full day booking</option>
+                <option>Half day booking</option>
+                <option>Hourly  booking</option>
+            </select>  -->
+
+            <ul>
+                <li onclick="toggleDropdown(event)">Full day booking
+                    <ul class="nested">
+                        <li style="color: black;background-color: #fad390;">Date</li>
+                        <li  style="color: black;background-color: #fad390;">Month</li>
+                    </ul>
+                </li>
+                <li onclick="toggleDropdown(event)">Half day booking
+                    <ul class="nested">
+                        <li  style="color: black;background-color: #fad390;">Date</li>
+                        <li  style="color: black;background-color: #fad390;">Slot 
+
+                            <ul class="nested">
+                                <li>Breakfast</li>
+                                <li>Lunch</li>
+                                <li>Dinner</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li onclick="toggleDropdown(event)">Hourly booking
+                    <ul class="nested">
+                        <li  style="color: black;background-color: #fad390;">Date</li>
+                        <li  style="color: black;background-color: #fad390;">Time</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- <button onclick="hideAllDropdowns()">click</button> -->
+
+    </div>
+
+   <br><br>
 
         
             <div class="mb-3 mt-3">
@@ -140,8 +188,26 @@
         else{
             true;
         }
-           
+     }
+
+     function toggleDropdown(event) {
+            event.stopPropagation(); // Prevents event bubbling
+            let nestedList = event.target.querySelector(".nested");
+            if (nestedList) {
+                nestedList.classList.toggle("active");
+            }
+
         }
-    </script>
+
+      
+
+        // function hideAllDropdown() {
+        //     document.querySelectorAll(".nested").forEach(list => {
+        //         list.classList.remove("active");
+        //     });
+        // }
+     
+
+</script>
 </body>
 </html>
