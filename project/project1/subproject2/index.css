@@ -106,6 +106,29 @@ a:hover{
     text-align: center;
 }
 
-span{
-    
+#content span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#content h3{
+    text-align: left;
+    float: left;
+    background-color: #40739e;
+    color: #e1b12c;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+
+#content h2{
+    text-align: left;
+    float: right;
+    background-color: #40739e;
+    color: #e1b12c;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
 }

@@ -16,7 +16,7 @@ body {
 
 .currency-inputs label {
     display: inline-block;
-    width: 150px;
+    width: 50px;
     font-weight: bold;
     background-color:#F8EFBA;
 }
