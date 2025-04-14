@@ -1,0 +1,76 @@
+$tc: green;
+$bg: pink;
+$tf: sans-serif;
+$ts: 15px;
+
+.Sassbox {
+    width: 250px;
+    height: 250;
+    color: $tc;
+    background-color: $bg;
+    font-family: $tf;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+        background-color: $bg;
+        color: $tc;
+    }
+}
+
+h2 {
+    font : {
+        family: $tf;
+        size: $ts;
+        weight: bold;
+    }
+
+    text : {
+        align: center;
+        transform: lowercase;
+        overflow: hidden;
+        decoration: underline;
+    }
+}
+
+.buuttonBasic {
+    border: none;
+    padding: 15 px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.red {
+    @extend .buuttonBasic;
+    background-color: red;
+}
+
+.blue {
+    @extend .buuttonBasic;
+    background-color: blue;
+}
+
+.yellow {
+    @extend .buuttonBasic;
+    background-color: yellow;
+}
+
+.orange {
+    @extend .buuttonBasic;
+    background-color: orange;
+}

@@ -43,7 +43,7 @@ a:hover{
 }
 
 #menu li a:hover{
-    background-color:#e1b12c;
+    background-color:#f3d278;
     color: #40739e;
 }
 
@@ -53,13 +53,13 @@ a:hover{
 }
 
 #flute a {
-    font-size: 25px;
+    font-size: 20px;
     color: #e1b12c;
     background-color: antiquewhite;
 }
 
 #flute a i:hover{
-    background-color:#e1b12c;
+    background-color:#ffe08b;
     color: #40739e;
 }
 
@@ -74,6 +74,32 @@ a:hover{
     background-size: cover;
     height: 500px;
 }
+#banner .banner-title2 .btn{
+    float: right;
+    display: block;
+    background-color:#40739e  ;
+    color: #e1b12c;
+    font-weight: bold;
+    padding: 10px 30px;
+    /* border: 1px solid blue; */
+    border-radius: 6px;
+    transition: all;
+    cursor: pointer;
+
+}
+
+#banner .banner-title2 .btn:hover{
+    color:  #40739e;
+    background-color:#fcdc85 ;
+    display: block;
+    /* border: 1px solid yellow; */
+    border-radius: 6px;
+    cursor: pointer;
+}
+#banner .banner-title2 img{
+    float: right;
+}
+
 
 .banner-title{
     padding-top: 10px;
@@ -86,7 +112,7 @@ a:hover{
     margin: 0;
     float: right;
     color:#40739e;
-    background-color:#e1b12c;
+    background-color:#f5d377;
 }
 
 .banner-title p.lead{
@@ -100,7 +126,7 @@ a:hover{
 
 #content{
     color: #40739e;
-    background-color: #e1b12c;
+    background-color: #fddd83;
     font-style:italic;
     font-weight: bold;
     text-align: center;
@@ -117,10 +143,16 @@ a:hover{
     background-color: #40739e;
     color: #e1b12c;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     width: 50%;
 }
+
+/* #content h3:hover{
+    color:aquamarine;
+    background-color: black;
+    font-style: italic;
+} */
 
 #content h2{
     text-align: left;
@@ -128,7 +160,197 @@ a:hover{
     background-color: #40739e;
     color: #e1b12c;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     width: 50%;
 }
+
+
+/* #content h2:hover{
+    color:aquamarine;
+    background-color: black;
+    font-style: italic;
+} */
+
+#content h4{
+    text-align: left;
+    float: left;
+    background-color: #40739e;
+    color: #e1b12c;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+/* 
+#content h4:hover{
+    color:aquamarine;
+    background-color: black;
+    font-style: italic;
+} */
+
+
+#content h5{
+    text-align: left;
+    float: right;
+    background-color: #40739e;
+    color: #e1b12c;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+
+#content h5:hover{
+    color:aquamarine;
+    background-color: black;
+    font-style: italic;
+    
+}
+
+
+#content img {
+    color: #e1b12c;
+}
+
+#content img:hover{
+    transition: all;
+    width: 250px;
+}
+#card{
+    font-size: 30px;
+    background-color: #4b6584;
+    color:#e1b12c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ #card h3{
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+ }
+.card-body{
+    background-color:#f1cf71;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn{
+    display:inline-block;
+    color:#e1b12c;
+    background-color: #4b6584;
+}
+#card .btn:hover{
+    color:black;
+    background-color:antiquewhite;
+}
+#about{
+    display: flex;
+    text-align: center;
+    color: #0a3d62;
+    background-color:#dbbb63;
+
+ }
+ #about span{
+    border-radius: 20px;
+ }
+ #sidebar p,h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+ }
+ #sub{
+    font-size: 20px;
+    margin-top: 50px;
+    display: block;
+ }
+
+ .error {
+    color: red;
+    font-size: 0.9em;
+  }
+.grant{
+   background-color:#ebd59ae8; 
+   background: url(./images/krishna2.jpg)no-repeat;
+   background-size:cover ;
+   margin-bottom: 10px;
+}
+
+.grant label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: wheat;
+}
+.grant .btn{
+    margin-bottom: 10px;
+}
+
+
+.grant .btn:hover{
+    color:black;
+    background-color: #f1cf71;
+
+}
+
+#testimonial{
+    text-align: center;
+    background-color:#40739e;
+    
+}
+
+#testimonial .badge{
+    font-size: 50px;
+    padding: 20px;
+    margin: 30px;
+    margin-right: 30px;
+    border-radius: 70px;
+    width: 500px;
+}
+.jumbotron{
+    height: auto;
+    padding: 10px;
+    border-radius: 40px;
+    background-color:#ffe08b;
+    background: url(./images/madhav1.jpg)no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+
+.jumbotron img{
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+#footer{
+    background-color:#0a3d62;
+    color:#f5d377;
+    padding: 100px;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+#demand{
+    background-color:black;
+    margin: 1px;
+    color:wheat;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:990px) {
+    #title {
+      font-size: small;  
+      display: contents;
+    }
+  }

@@ -1,13 +1,25 @@
 // import Name from "./jsx/main"
 // import './jsx/mycss.css';
 // import React from "react"
-import FuncProps from './functionProps/Funcprops'
+// import FuncProps from './functionProps/Funcprops'
+// import ModuleCss from "./module_css/ModuleCss";
+// import SassCss from './Sass/mysass'
+// import  MainClassState from './classState/mainClassState'
+
+import MainFuncState from "./functionState/MainFuncState";
+
+
 
 function App() {
   return (
-    <div>
+    <div className="container mt-5">
       {/* < Name /> */}
-      <FuncProps />
+      {/* <FuncProps /> */}
+        {/* <ModuleCss/> */}
+        
+        {/* < SassCss /> */}
+        {/* <MainClassState /> */}
+        <MainFuncState />
 
       {/* <div>
         <div className="hero_area">

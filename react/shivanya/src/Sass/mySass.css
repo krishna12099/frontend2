@@ -1,0 +1,58 @@
+.Sassbox {
+  width: 250px;
+  height: 250;
+  color: green;
+  background-color: pink;
+  font-family: sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  background-color: pink;
+  color: green;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: lowercase;
+  text-overflow: hidden;
+  text-decoration: underline;
+}
+
+.buuttonBasic, .orange, .yellow, .blue, .red {
+  border: none;
+  padding: 15 px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}/*# sourceMappingURL=mySass.css.map */
