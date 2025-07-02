@@ -3,12 +3,12 @@ import FuncImg from './FuncImg'
 
 function MainFuncState() {
     const [data, setData] = useState({
-        name: "Rajesh Nagar",
+        name: "Krishna Prajapati",
         number: 1,
         isImage: true
     });
 
-    const [email, setEmail] = useState("raj@gmail.com");
+    const [email, setEmail] = useState("krishna@gmail.com");
 
     const plus = () => {
         setData({ ...data, number: data.number + 1 });
@@ -19,7 +19,7 @@ function MainFuncState() {
     }
     return (
         <div>
-            <button onClick={() => setData({ ...data, name: "Akash Nagar" })}>change</button>
+            <button onClick={() => setData({ ...data, name: "Shivanya jain" })}>change</button>
             <h1>Hi my name is:{data.name} </h1>
 
             <button onClick={() => plus()}>+</button>
@@ -41,7 +41,7 @@ function MainFuncState() {
             <hr />
             <br />
 
-            <button onClick={() => setEmail("raj@yahoo.com")}>Change</button>
+            <button onClick={() => setEmail("krishna@yahoo.com")}>Change</button>
             <h1>My email is :{email}</h1>
             <br />
             <hr />

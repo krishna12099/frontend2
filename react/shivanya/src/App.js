@@ -6,20 +6,29 @@
 // import SassCss from './Sass/mysass'
 // import  MainClassState from './classState/mainClassState'
 
-import MainFuncState from "./functionState/MainFuncState";
+// import MainFuncState from "./functionState/MainFuncState";
+// import Main from "./CardProps/main"
+// import Incre from "./UseState/Incre";
+// import AddCallIcon from '@mui/icons-material/AddCall';
+import MaterialUI from "./MaterialUI/MaterialUi";
 
 
 
 function App() {
   return (
-    <div className="container mt-5">
+    <div>
       {/* < Name /> */}
       {/* <FuncProps /> */}
         {/* <ModuleCss/> */}
         
         {/* < SassCss /> */}
         {/* <MainClassState /> */}
-        <MainFuncState />
+        {/* <MainFuncState /> */}
+        {/* <Main/> */}
+
+       < MaterialUI />
+         {/* < AddCallIcon/> */}
+        {/* <Incre/> */}
 
       {/* <div>
         <div className="hero_area">
